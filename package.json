@@ -1,0 +1,17 @@
+{
+  "name": "Api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cy-spok": "github:bahmutov/cy-spok",
+    "cypress": "^5.2.0",
+    "cypress-select-tests": "^1.7.1"
+  }
+}
