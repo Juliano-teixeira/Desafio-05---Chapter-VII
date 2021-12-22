@@ -67,7 +67,7 @@ context('Booking', () => {
         })
     });
 
-    it.only('tentar excluir uma reserva inexistente ', () => {
+    it('tentar excluir uma reserva inexistente ', () => {
         req.deleteReservaInexistente().then(deleteReservaInexistente =>{
             assertions.shoulHaveStatus(deleteReservaInexistente, 405)
         })
